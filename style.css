@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&family=Varela+Round&display=swap');
+
+body {
+    margin: 0;
+}
+
+div {
+    background-color: lightgray;
+    min-height: 610px;
+    max-height: 800px;
+    min-width: 325px;
+    max-width: 400px;
+    position: absolute;
+    top: 10em;
+    left: 40%;
+    box-shadow: .7em .5em 7px lightcyan, -.7em -.5em 7px lightcyan;
+    border: 2px solid gray;
+}
+
+#ans_box {
+    background-color: black;
+    min-height: 100px;
+    max-height: none;
+    min-width: 305px;
+    max-width: none;
+    top: 0.5em;
+    left: 0.5em;
+    box-shadow: none;
+}
+
+/*buttons*/
+/*operator buttons*/
+#plus_btn {
+    position: inherit;
+    top: 5em;
+    margin-left: 10px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#minus_btn {
+    position: inherit;
+    top: 5em;
+    margin-left: 90px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#multiply_btn {
+    position: inherit;
+    top: 5em;
+    margin-left: 170px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#divide_btn{
+    position: inherit;
+    top: 5em;
+    margin-left: 250px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+/*numbers*/
+/*first row*/
+#seven {
+    position: inherit;
+    top: 9em;
+    margin-left: 10px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#eight {
+    position: inherit;
+    top: 9em;
+    margin-left: 90px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#nine {
+    position: inherit;
+    top: 9em;
+    margin-left: 170px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+/*second row*/
+#four {
+    position: inherit;
+    top: 13em;
+    margin-left: 10px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#five {
+    position: inherit;
+    top: 13em;
+    margin-left: 90px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#six {
+    position: inherit;
+    top: 13em;
+    margin-left: 170px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+/*third row*/
+#one {
+    position: inherit;
+    top: 17em;
+    margin-left: 10px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#two {
+    position: inherit;
+    top: 17em;
+    margin-left: 90px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#three {
+    position: inherit;
+    top: 17em;
+    margin-left: 170px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+/*utility buttons and 0*/
+#zero {
+    position: inherit;
+    top: 21em;
+    margin-left: 10px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#point {
+    position: inherit;
+    top: 21em;
+    margin-left: 90px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#clear {
+    position: inherit;
+    top: 21em;
+    margin-left: 170px;
+    border: 2px solid gray;
+    height: 75px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+/*equals*/
+#equal_btn {
+    position: inherit;
+    top: 9em;
+    margin-left: 250px;
+    border: 2px solid gray;
+    height: 375px;
+    width: 65px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    background-color: lightskyblue;
+}
+
+#equal_btn:active {
+    background-color: rgb(28, 166, 252);
+}
+
+.btns:active {
+    background-color: rgb(70, 70, 70);
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+    div {
+        top: 6em;
+        left: 2em;
+    }
+}
+
